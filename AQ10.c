@@ -1,12 +1,18 @@
 #include<stdio.h>
+
 int main()
-{char hexNum[100];
+{
+char hexNum[100];
 long int count=0;
+
 printf("Enter a hexadecimal number To Convert it into Binary : ");
 scanf("%s",hexNum);
 printf("\nBinary Number is : ");
+
 while(hexNum[count])
-{switch(hexNum[count]){
+{
+switch(hexNum[count])
+{
 case '0' : printf("0000");
 break;
 case '1' : printf("0001");
